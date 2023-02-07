@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApplication.App", "MainApplication.App\MainApplication.App.csproj", "{EB6B4F97-18E3-47E1-9794-A6FD70E76DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApplication.PluginBase", "MainApplication.PluginBase\MainApplication.PluginBase.csproj", "{FB9E9645-11E1-4E61-947A-564C20A68053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyPlugins", "MyPlugins", "{D57B53D2-EA6A-4A44-A121-3891C44F4D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pgMathSum", "MyPlugins\pgMathSum\pgMathSum.csproj", "{81494409-8132-435C-9571-BDAD6FC11210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pgNotMath", "MyPlugins\pgNotMath\pgNotMath.csproj", "{30165626-021D-405E-BA71-69DAC00B25D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pgNotAPlugin", "MyPlugins\pgNotAPlugin\pgNotAPlugin.csproj", "{23AFAF5E-6EDF-4229-83C3-D14500BCB104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB6B4F97-18E3-47E1-9794-A6FD70E76DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6B4F97-18E3-47E1-9794-A6FD70E76DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6B4F97-18E3-47E1-9794-A6FD70E76DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6B4F97-18E3-47E1-9794-A6FD70E76DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9E9645-11E1-4E61-947A-564C20A68053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9E9645-11E1-4E61-947A-564C20A68053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9E9645-11E1-4E61-947A-564C20A68053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9E9645-11E1-4E61-947A-564C20A68053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81494409-8132-435C-9571-BDAD6FC11210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81494409-8132-435C-9571-BDAD6FC11210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81494409-8132-435C-9571-BDAD6FC11210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81494409-8132-435C-9571-BDAD6FC11210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30165626-021D-405E-BA71-69DAC00B25D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30165626-021D-405E-BA71-69DAC00B25D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30165626-021D-405E-BA71-69DAC00B25D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30165626-021D-405E-BA71-69DAC00B25D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AFAF5E-6EDF-4229-83C3-D14500BCB104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AFAF5E-6EDF-4229-83C3-D14500BCB104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AFAF5E-6EDF-4229-83C3-D14500BCB104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AFAF5E-6EDF-4229-83C3-D14500BCB104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81494409-8132-435C-9571-BDAD6FC11210} = {D57B53D2-EA6A-4A44-A121-3891C44F4D0E}
+		{30165626-021D-405E-BA71-69DAC00B25D7} = {D57B53D2-EA6A-4A44-A121-3891C44F4D0E}
+		{23AFAF5E-6EDF-4229-83C3-D14500BCB104} = {D57B53D2-EA6A-4A44-A121-3891C44F4D0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6490DB8E-A8F4-40CF-AB04-7B528E335D61}
+	EndGlobalSection
+EndGlobal
